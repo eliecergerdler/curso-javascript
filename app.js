@@ -77,3 +77,39 @@ resultado = Math.random();
 
 console.log(resultado);*/
 
+//Tipos de datos
+
+let valor;
+
+/*valor = 'cdena de texto';
+valor = 20;
+valor = true;
+valor = null;
+valor = undefined;
+valor = {
+    nombre:'juan'
+}
+*/
+valor = 'juan';
+valor = 20;
+valor = 20.20;
+valor = "20";
+
+//Booleanos
+valor = true;
+//null
+valor = null;
+
+//Simbols
+valor = Symbol('Simbolo');
+//Arreglo
+valor = [1,2,3,4];
+// Objetos
+valor = {
+    nombre: 'juan',
+    profesion: 'Desarrollador web'
+}
+// fecha
+valor = new Date();
+
+console.log(typeof valor);
